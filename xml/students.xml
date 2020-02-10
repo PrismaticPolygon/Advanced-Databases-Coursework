@@ -1,0 +1,21 @@
+<?XML VERSION = "1.0" STANDALONE = "yes"?>
+<students year="2019-2020">
+    <student enrolmentDate = "2017">
+        <name>John Smith</name>
+        <course>
+            <name>Software, Systems and Applications III</name>
+            <submodule>Advanced Databases</submodule>
+            <submodule>Web Technology</submodule>
+        </course>
+        <course>Computing Methodologies III</course>
+    </student>
+    <student enrolmentDate = "2016">
+        <firstname>Anna</firstname>
+        <lastname>Brown</lastname>
+        <course>
+            <name>Software, Systems and Applications IV</name>
+            <submodule>Semantic Web</submodule>
+        </course>
+        <course>Computing Methodologies IV</course>
+    </student>
+</students>

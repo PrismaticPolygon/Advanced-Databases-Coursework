@@ -1,0 +1,22 @@
+<?XML VERSION = "1.0" STANDALONE = "yes"?>
+<teachers>
+    <teacher joiningDate = "2018" jobRole= "Professor">
+        <name>Alexandra Cristea</name>
+        <course>
+            <name>Software, Systems and Applications III</name>
+            <submodule>
+                <name>Advanced Databases</name>
+                <year>2018-2019</year>
+                <year>2019-2020</year>
+            </submodule>
+        </course>
+        <course>
+            <name>Software, Systems and Applications IV</name>
+            <submodule>
+                <name>Semantic Web</name>
+                <year>2018-2019</year>
+                <year>2019-2020</year>
+            </submodule>
+        </course>
+    </teacher>
+</teachers>
