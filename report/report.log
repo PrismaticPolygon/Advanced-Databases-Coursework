@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.12)  12 FEB 2020 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.12)  12 FEB 2020 18:25
 entering extended mode
 **./report.tex
 (report.tex
@@ -883,43 +883,83 @@ t/m/n/10.95 <!ELEMENT course (name, submodule*)>
  []
 
 [2]
-Overfull \hbox (7.3667pt too wide) in paragraph at lines 180--181
-[]\OT1/cmr/m/n/10.95 Select all branches with a [][]\OT1/cmtt/m/n/10.95 submodu
-le []\OT1/cmr/m/n/10.95 node with a text value of 'Ad-vanced Databases': 
+Overfull \hbox (14.56438pt too wide) in paragraph at lines 171--172
+[][]\OT1/cmtt/m/n/10.95 XPath []\OT1/cmr/m/n/10.95 queries were tested us-ing t
+he [][]\OT1/cmtt/m/n/10.95 lxml []\OT1/cmr/m/n/10.95 Python pack-age. The pro-v
+ided files, [][]\OT1/cmtt/m/n/10.95 teachers.xml
  []
 
 
-Overfull \hbox (80.51378pt too wide) in paragraph at lines 224--225
- [][]\OT1/cmtt/m/n/10.95 /teachers/teacher/course/submodule[name='Advanced Data
-bases' and year='2019-2020'] 
+Overfull \hbox (35.89265pt too wide) in paragraph at lines 177--177
+[]\OT1/cmtt/m/n/10.95 /students[@year='2019-2020']/descendant::submodule[text()
+='Advanced Databases'][] 
  []
 
 [3
 
-] [4] (report.aux) ) 
+]
+Overfull \hbox (35.89265pt too wide) in paragraph at lines 234--234
+[]\OT1/cmtt/m/n/10.95 /teachers/descendant::submodule[name='Advanced Databases'
+ and year='2019-2020'][] 
+ []
+
+
+Overfull \hbox (63.26772pt too wide) in paragraph at lines 245--245
+ []\OT1/cmtt/m/n/10.95 /teachers/descendant::submodule[name='Advanced Databases
+' and year='2019-2020'][] 
+ []
+
+[4
+
+] [5
+
+]
+Overfull \hbox (12.8979pt too wide) in paragraph at lines 350--350
+[]\OT1/cmtt/m/n/10.95 for $s in /teachers/teacher[name='Alexandra Cristea']/cou
+rse/submodule/name[] 
+ []
+
+
+Overfull \hbox (40.27296pt too wide) in paragraph at lines 365--365
+ []\OT1/cmtt/m/n/10.95 for $s in /teachers/teacher[name='Alexandra Cristea']/co
+urse/submodule/name[] 
+ []
+
+[6
+
+] [7] [8
+
+] [9
+
+] (report.aux) ) 
 Here is how much of TeX's memory you used:
- 16704 strings out of 481565
- 324410 string characters out of 2914159
+ 16713 strings out of 481565
+ 324498 string characters out of 2914159
  556368 words of memory out of 3000000
- 31618 multiletter control sequences out of 15000+200000
- 540684 words of font info for 53 fonts, out of 3000000 for 9000
+ 31623 multiletter control sequences out of 15000+200000
+ 542048 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,64p,480b,855s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\domwh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/j
-knappen/ec/dpi600\tcrm1095.pk><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/domwh/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/domwh/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/dom
-wh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb>
-<C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmssi12.pfb><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/domwh/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/domwh/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (4 pages, 120988 bytes).
+ <C:\Users\domwh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknap
+pen/ec/dpi600\tcrm1095.pk><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/domwh/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/domwh/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/domwh/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/
+Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r6.pfb><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr8.pfb><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr9.pfb><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/domwh/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/domwh/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
+domwh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.p
+fb><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmtt10.pfb><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmtt12.pfb>
+Output written on report.pdf (9 pages, 167889 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

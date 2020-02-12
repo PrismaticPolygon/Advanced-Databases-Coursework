@@ -5,6 +5,6 @@
     <!ATTLIST student enrolmentDate CDATA #REQUIRED>
     <!ELEMENT firstname (#PCDATA)>
     <!ELEMENT lastname (#PCDATA)>
-    <!ELEMENT course (#PCDATA|(name,submodule*))>
+    <!ELEMENT course (name,submodule*)>
         <!ELEMENT submodule (#PCDATA)>
         <!ELEMENT name (#PCDATA)>
