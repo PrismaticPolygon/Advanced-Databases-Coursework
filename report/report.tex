@@ -34,7 +34,7 @@
 \usepackage{amsmath}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
-\usepackage{listings}
+\usepackage{tikz-qtree}
 
 %%% HEADERS & FOOTERS
 \usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
@@ -67,6 +67,31 @@
 \section*{Part A}
 
 \subsection*{a) \textit{Draw the directed tree structure of} \texttt{students.xml}.}
+
+\begin{tikzpicture}[scale=.75]
+\Tree[.students
+	[.student 
+		[.name \textit{John Smith} ]
+		[.course 
+			[.name \textit{SSA III} ]
+			[.submodule \textit{Advanced Databases} ]
+			[.submodule \textit{Web Technology} ]
+		]
+           [.course \textit{CM III} ]
+	]
+      [.student 
+		[.firstname \textit{Anna} ]
+		[.lastname \textit{Brown} ]
+		[.course
+			[.name \textit{SSA IV} ]
+			[.submodule \textit{Semantic Web} ]
+		]
+           [.course \textit{CM IV} ]
+	]
+]
+
+\end{tikzpicture}
+
 \subsection*{b) \textit{Write a DTD for} teachers.xml.}
 
 This DTD was validated using the \verb|lxml| Python package. The provided file, \verb|teachers.xml|, was modified slightly to facilitate this.
@@ -133,7 +158,7 @@ to:
 
 \end{verbatim}
 
-The DTD element would then be \verb|<!ELEMENT course (name, submodule*)>|
+The problematic DTD element would then be \verb|<!ELEMENT course (name, submodule*)>|
 
 \section*{Part B}
 
