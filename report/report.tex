@@ -35,6 +35,7 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{tikz-qtree}
+\usepackage{enumitem}
 
 %%% HEADERS & FOOTERS
 \usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
@@ -160,15 +161,107 @@ to:
 
 The problematic DTD element would then be \verb|<!ELEMENT course (name, submodule*)>|
 
+\clearpage
+
 \section*{Part B}
 
 \subsection*{a) \textit{Find all students who study "Advanced Databases" this year.}}
 
-XPATH
+\begin{enumerate}
+
+	\item{Select students for this year:} 
+
+\begin{center}
+
+	\verb|/students[@year='2019-2020']|
+
+\end{center}
+
+	\item{Select all branches with a \verb|submodule| node with a text value of 'Advanced Databases':}
+
+\begin{center}
+
+	\verb|/student/course/submodule[text()='Advanced Databases']|
+
+\end{center}
+
+	\item{Return the \verb|<student>| ancestors from the matches in step $2$:}
+
+\begin{center}
+
+	\verb|/ancestor::student|
+
+\end{center}
+
+\end{enumerate}
+
+The output is:
+
+\begin{verbatim}
+
+ <student enrolmentDate="2017">
+        <name>John Smith</name>
+        <course>
+            <name>Software, Systems and Applications III</name>
+            <submodule>Advanced Databases</submodule>
+            <submodule>Web Technology</submodule>
+        </course>
+        <course>Computing Methodologies III</course>
+    </student>
+
+\end{verbatim}
+
+This approach is robust; there are no obvious limitations.
 
 \subsection*{b) \textit{Find all teachers who teach "Advanced Databases" this year.}}
 
-XPATH
+\begin{enumerate}
+
+	\item{Select all \verb|submodule| branches with nodes \verb|name| and \verb|year| with values 'Advanced Databases' and '2019-2020', respectively:} 
+
+\begin{center}
+
+	\verb|/teachers/teacher/course/submodule[name='Advanced Databases' and year='2019-2020']|
+
+\end{center}
+
+	\item{Return the \verb|<teacher>| ancestors from the matches in step $1$:}
+
+\begin{center}
+
+	\verb|/ancestor::teachers|
+
+\end{center}
+
+\end{enumerate}
+
+The output is:
+
+\begin{verbatim}
+
+<teacher joiningDate="2018" jobRole="Professor">
+        <name>Alexandra Cristea</name>
+        <course>
+            <name>Software, Systems and Applications III</name>
+            <submodule>
+                <name>Advanced Databases</name>
+                <year>2018-2019</year>
+                <year>2019-2020</year>
+            </submodule>
+        </course>
+        <course>
+            <name>Software, Systems and Applications IV</name>
+            <submodule>
+                <name>Semantic Web</name>
+                <year>2018-2019</year>
+                <year>2019-2020</year>
+            </submodule>
+        </course>
+    </teacher>
+
+\end{verbatim}
+
+This approach is robust; there are no obvious limitations.
 
 \subsection*{c) \textit{How many years has Professor Cristea been teaching "Advanced Databases" (at Durham)?}}
 

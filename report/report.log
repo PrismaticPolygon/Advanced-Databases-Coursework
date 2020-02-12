@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.12)  12 FEB 2020 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.12)  12 FEB 2020 15:27
 entering extended mode
 **./report.tex
 (report.tex
@@ -644,19 +644,29 @@ qtree.tex"
 \child@list=\toks43
 \root@node=\toks44
 ))
+("C:\Users\domwh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/enumitem\enumitem.
+sty"
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip66
+\enit@outerparindent=\dimen304
+\enit@toks=\toks45
+\enit@inbox=\box63
+\enit@count@id=\count302
+\enitdp@description=\count303
+)
 ("C:\Users\domwh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.
 sty"
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip66
-\f@nch@O@elh=\skip67
-\f@nch@O@erh=\skip68
-\f@nch@O@olh=\skip69
-\f@nch@O@orh=\skip70
-\f@nch@O@elf=\skip71
-\f@nch@O@erf=\skip72
-\f@nch@O@olf=\skip73
-\f@nch@O@orf=\skip74
+\f@nch@headwidth=\skip67
+\f@nch@O@elh=\skip68
+\f@nch@O@erh=\skip69
+\f@nch@O@olh=\skip70
+\f@nch@O@orh=\skip71
+\f@nch@O@elf=\skip72
+\f@nch@O@erf=\skip73
+\f@nch@O@olf=\skip74
+\f@nch@O@orf=\skip75
 )
 ("C:\Users\domwh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sectsty\sectsty.st
 y"
@@ -685,66 +695,66 @@ Package tocbibind Note: Using section or other style headings.
 y"
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip75
-\cftbeforetoctitleskip=\skip76
-\cftaftertoctitleskip=\skip77
-\cftbeforepartskip=\skip78
-\cftpartnumwidth=\skip79
-\cftpartindent=\skip80
-\cftbeforesecskip=\skip81
-\cftsecindent=\skip82
-\cftsecnumwidth=\skip83
-\cftbeforesubsecskip=\skip84
-\cftsubsecindent=\skip85
-\cftsubsecnumwidth=\skip86
-\cftbeforesubsubsecskip=\skip87
-\cftsubsubsecindent=\skip88
-\cftsubsubsecnumwidth=\skip89
-\cftbeforeparaskip=\skip90
-\cftparaindent=\skip91
-\cftparanumwidth=\skip92
-\cftbeforesubparaskip=\skip93
-\cftsubparaindent=\skip94
-\cftsubparanumwidth=\skip95
-\cftbeforeloftitleskip=\skip96
-\cftafterloftitleskip=\skip97
-\cftbeforefigskip=\skip98
-\cftfigindent=\skip99
-\cftfignumwidth=\skip100
-\cftbeforelottitleskip=\skip101
-\cftafterlottitleskip=\skip102
-\cftbeforetabskip=\skip103
-\cfttabindent=\skip104
-\cfttabnumwidth=\skip105
-\cftbeforesubfigskip=\skip106
-\cftsubfigindent=\skip107
-\cftsubfignumwidth=\skip108
-\cftbeforesubtabskip=\skip109
-\cftsubtabindent=\skip110
-\cftsubtabnumwidth=\skip111
+\cftparskip=\skip76
+\cftbeforetoctitleskip=\skip77
+\cftaftertoctitleskip=\skip78
+\cftbeforepartskip=\skip79
+\cftpartnumwidth=\skip80
+\cftpartindent=\skip81
+\cftbeforesecskip=\skip82
+\cftsecindent=\skip83
+\cftsecnumwidth=\skip84
+\cftbeforesubsecskip=\skip85
+\cftsubsecindent=\skip86
+\cftsubsecnumwidth=\skip87
+\cftbeforesubsubsecskip=\skip88
+\cftsubsubsecindent=\skip89
+\cftsubsubsecnumwidth=\skip90
+\cftbeforeparaskip=\skip91
+\cftparaindent=\skip92
+\cftparanumwidth=\skip93
+\cftbeforesubparaskip=\skip94
+\cftsubparaindent=\skip95
+\cftsubparanumwidth=\skip96
+\cftbeforeloftitleskip=\skip97
+\cftafterloftitleskip=\skip98
+\cftbeforefigskip=\skip99
+\cftfigindent=\skip100
+\cftfignumwidth=\skip101
+\cftbeforelottitleskip=\skip102
+\cftafterlottitleskip=\skip103
+\cftbeforetabskip=\skip104
+\cfttabindent=\skip105
+\cfttabnumwidth=\skip106
+\cftbeforesubfigskip=\skip107
+\cftsubfigindent=\skip108
+\cftsubfignumwidth=\skip109
+\cftbeforesubtabskip=\skip110
+\cftsubtabindent=\skip111
+\cftsubtabnumwidth=\skip112
 )
 ("C:\Users\domwh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
 d-pdfmode.def"
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count302
-\l__pdf_internal_box=\box63
+\l__kernel_color_stack_int=\count304
+\l__pdf_internal_box=\box64
 ) (report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -784,17 +794,17 @@ LaTeX Font Info:    ... okay on input line 64.
 ("C:\Users\domwh\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count303
-\scratchdimen=\dimen304
-\scratchbox=\box64
-\nofMPsegments=\count304
-\nofMParguments=\count305
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count306
-\MPscratchDim=\dimen305
-\MPnumerator=\count307
-\makeMPintoPDFobject=\count308
-\everyMPtoPDFconversion=\toks46
+\scratchcounter=\count305
+\scratchdimen=\dimen305
+\scratchbox=\box65
+\nofMPsegments=\count306
+\nofMParguments=\count307
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count308
+\MPscratchDim=\dimen306
+\MPnumerator=\count309
+\makeMPintoPDFobject=\count310
+\everyMPtoPDFconversion=\toks47
 )
 ("C:\Users\domwh\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
 pdf-base.sty"
@@ -844,14 +854,14 @@ Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
  ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <12> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 69.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 70.
 
-Overfull \hbox (52.07991pt too wide) in paragraph at lines 93--94
+Overfull \hbox (52.07991pt too wide) in paragraph at lines 94--95
 [] 
  []
 
 
-Overfull \hbox (7.9023pt too wide) in paragraph at lines 97--98
+Overfull \hbox (7.9023pt too wide) in paragraph at lines 98--99
 \OT1/cmr/m/n/10.95 This DTD was val-i-dated us-ing the [][]\OT1/cmtt/m/n/10.95 
 lxml []\OT1/cmr/m/n/10.95 Python pack-age. The pro-vided file, [][]\OT1/cmtt/m/
 n/10.95 teachers.xml[]\OT1/cmr/m/n/10.95 ,
@@ -860,42 +870,56 @@ n/10.95 teachers.xml[]\OT1/cmr/m/n/10.95 ,
 [1
 
 {C:/Users/domwh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (41.18636pt too wide) in paragraph at lines 127--128
+Overfull \hbox (41.18636pt too wide) in paragraph at lines 128--129
 \OT1/cmr/m/n/10.95 does not al-low mixed del-ca-ra-tions such as [][]\OT1/cmtt/
 m/n/10.95 <!ELEMENT course (#PCDATA $\OMS/cmsy/m/n/10.95 j$ []\OT1/cmtt/m/n/10.
 95 (name, submodule*)>[]\OT1/cmr/m/n/10.95 .
  []
 
 
-Overfull \hbox (20.4702pt too wide) in paragraph at lines 161--162
+Overfull \hbox (20.4702pt too wide) in paragraph at lines 162--163
 []\OT1/cmr/m/n/10.95 The prob-lem-atic DTD el-e-ment would then be [][]\OT1/cmt
 t/m/n/10.95 <!ELEMENT course (name, submodule*)> 
  []
 
-[2] [3] (report.aux) ) 
+[2]
+Overfull \hbox (7.3667pt too wide) in paragraph at lines 180--181
+[]\OT1/cmr/m/n/10.95 Select all branches with a [][]\OT1/cmtt/m/n/10.95 submodu
+le []\OT1/cmr/m/n/10.95 node with a text value of 'Ad-vanced Databases': 
+ []
+
+
+Overfull \hbox (80.51378pt too wide) in paragraph at lines 224--225
+ [][]\OT1/cmtt/m/n/10.95 /teachers/teacher/course/submodule[name='Advanced Data
+bases' and year='2019-2020'] 
+ []
+
+[3
+
+] [4] (report.aux) ) 
 Here is how much of TeX's memory you used:
- 16385 strings out of 481565
- 318994 string characters out of 2914159
- 548826 words of memory out of 3000000
- 31303 multiletter control sequences out of 15000+200000
+ 16704 strings out of 481565
+ 324410 string characters out of 2914159
+ 556368 words of memory out of 3000000
+ 31618 multiletter control sequences out of 15000+200000
  540684 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,11n,64p,480b,855s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\domwh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/domwh/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/domwh/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/d
-omwh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pf
-b><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmssi12.pfb><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/domwh/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/domwh/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (3 pages, 117241 bytes).
+ <C:\Users\domwh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/j
+knappen/ec/dpi600\tcrm1095.pk><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/domwh/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/domwh/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/dom
+wh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb>
+<C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmssi12.pfb><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><C:/Users/domwh/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/domwh/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/domwh/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on report.pdf (4 pages, 120988 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
