@@ -1,0 +1,10 @@
+<?xml encoding="UTF-8"?>
+<!ELEMENT students (student)+>
+<!ATTLIST students year CDATA #REQUIRED>
+    <!ELEMENT student ((name|(firstname,lastname)),course+)>
+    <!ATTLIST student enrolmentDate CDATA #REQUIRED>
+    <!ELEMENT firstname (#PCDATA)>
+    <!ELEMENT lastname (#PCDATA)>
+    <!ELEMENT course (#PCDATA|(name,submodule*))>
+        <!ELEMENT submodule (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>

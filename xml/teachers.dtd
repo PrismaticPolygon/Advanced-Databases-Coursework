@@ -1,0 +1,10 @@
+<?xml encoding="UTF-8"?>
+<!ELEMENT teachers (teacher*)>
+    <!ELEMENT teacher (name, course*)>
+    <!ATTLIST teacher
+        jobRole CDATA #REQUIRED
+        joiningDate CDATA #REQUIRED>
+    <!ELEMENT course (name,submodule+)>
+        <!ELEMENT submodule (name,year+)>
+            <!ELEMENT year (#PCDATA)>
+            <!ELEMENT name (#PCDATA)>

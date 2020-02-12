@@ -34,6 +34,7 @@
 \usepackage{amsmath}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
+\usepackage{listings}
 
 %%% HEADERS & FOOTERS
 \usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
@@ -65,17 +66,74 @@
 
 \section*{Part A}
 
-\subsection*{a)}
+\subsection*{a) \textit{Draw the directed tree structure of} \texttt{students.xml}.}
+\subsection*{b) \textit{Write a DTD for} teachers.xml.}
 
-Directed tree / Hierarchical Tree Model of students.xml.
+This DTD was validated using the \verb|lxml| Python package. The provided file, \verb|teachers.xml|, was modified slightly to facilitate this.
 
-\subsection*{b)}
+\begin{verbatim}
 
-DTD for teachers.xml.
+<?xml encoding="UTF-8"?>
+<!ELEMENT teachers (teacher*)>
+    <!ELEMENT teacher (name, course*)>
+    <!ATTLIST teacher
+        jobRole CDATA #REQUIRED
+        joiningDate CDATA #REQUIRED>
+    <!ELEMENT course (name,submodule+)>
+        <!ELEMENT submodule (name,year+)>
+            <!ELEMENT year (#PCDATA)>
+            <!ELEMENT name (#PCDATA)>
 
-\subsection*{c)}
+\end{verbatim}
 
-Possibility of writign a DTD for students.xml.
+However, with limited examples, and no formal specification, there are ambiguities:
+
+\begin{itemize}
+
+\item{Should a teacher teach at least one course to be included in \verb|teachers.xml|, i.e. \verb|<!ELEMENT teacher (name, course+)>|?}
+\item{Should a course contain at least one submodule to be included in \verb|teachers.xml|, i.e. \verb|<!ELEMENT course (name, submodule+)>|?}
+\item{Which attributes (if any) are \verb|#REQUIRED|, \verb|#IMPLIED|, or \verb|#FIXED|? Are there default values?}
+\item{Are there are limited number of values for \verb|jobRole|? If there were only two roles available, for instance, \verb|Professor| and \verb|Researcher|, the attribute declaration should be \verb|<!ATTLIST teacher jobRole(Professor| $|$ \verb|Researcher)>|.}
+
+\end{itemize}
+
+\subsection*{c) \textit{Is it possible to write a DTD for} \texttt{students.xml}?}
+
+It is not possible. The difficult construct is \verb|<course>|. A student needs one or more courses (\verb|course+|) but a course can either be \verb|#PCDATA| or \verb|(name, submodule*)|, and DTD does not allow mixed delcarations such as \verb|<!ELEMENT course (#PCDATA| $|$ \verb|(name, submodule*)>|. This problem could be eliminated by forbidding \verb|#PCDATA| in \verb|<course>| and always using the \verb|<name>| element, i.e. by changing:
+
+\begin{verbatim}
+
+<student enrolmentDate="2016">
+        <firstname>Anna</firstname>
+        <lastname>Brown</lastname>
+        <course>
+            <name>Software, Systems and Applications IV</name>
+            <submodule>Semantic Web</submodule>
+        </course>
+        <course>Computing Methodologies IV</course>
+    </student>
+
+\end{verbatim}
+
+to:
+
+\begin{verbatim}
+
+<student enrolmentDate="2016">
+        <firstname>Anna</firstname>
+        <lastname>Brown</lastname>
+        <course>
+            <name>Software, Systems and Applications IV</name>
+            <submodule>Semantic Web</submodule>
+        </course>
+        <course>
+            <name>Computing Methodologies IV</name>
+        </course>
+    </student>
+
+\end{verbatim}
+
+The DTD element would then be \verb|<!ELEMENT course (name, submodule*)>|
 
 \section*{Part B}
 

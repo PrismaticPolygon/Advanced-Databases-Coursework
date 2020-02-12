@@ -5,12 +5,12 @@ teachers = etree.parse("xml/teachers.xml")
 
 print("Find all students who study Advanced Databases this year.\n")
 
-path = "/students[@year='2019-2020'][//student//courses//submodule = | ]"
-result = students.xpath(path)
-
-for r in result:
-
-    print(etree.tostring(r, pretty_print=True))
+path = "/students[@year='2019-2020'][//student//courses//]"
+# result = students.xpath(path)
+#
+# for r in result:
+#
+#     print(etree.tostring(r, pretty_print=True))
 
 print("\nFind all teachers who teach Advanced Databases this year.\n")
 
